@@ -1,6 +1,4 @@
-#!/usr/bin/bash
-# scripts/deploy
 git checkout production
 git pull
-npm install # optional
+npm install
 pm2 restart koa-test
