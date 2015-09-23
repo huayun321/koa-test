@@ -1,0 +1,5 @@
+# scripts/deploy
+git checkout production
+git pull
+npm install # optional
+pm2 restart service
