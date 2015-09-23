@@ -12,6 +12,7 @@
   "author": "huayun321@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "github-webhook-handler": "^0.5.0",
     "koa": "^1.0.0"
   }
 }
