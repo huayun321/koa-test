@@ -6,6 +6,7 @@ app.use(function *(){
     this.body += 'gen ssh key , then set to github, then make a webhooks, \n';
     this.body += 'fixed secret \n';
     this.body += 'why steel not pull \n';
+    this.body += 'it worked !! \n';
 
 
 
