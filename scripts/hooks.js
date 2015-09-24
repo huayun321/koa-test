@@ -11,6 +11,7 @@ http.createServer(function(req, res) {
 }).listen(8888);
 
 handler.on('push', function (event) {
+    console.log('on path /===');
     var comps = event.payload.ref.split('/');
     if(comps[2] != 'production') {
         console.log('Received a push on %s and no build has is triggered', comps[2]);
