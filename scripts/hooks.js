@@ -20,6 +20,7 @@ handler.on('push', function (event) {
     exec('./scripts/deploy', function(error, stdout, stderr) {
         console.log(stdout);
         if(error != null) {
+            console.log('error: ', error);
             console.log('Error during the execution of redeploy: ' + stderr);
         }
     });
