@@ -7,6 +7,8 @@ app.use(function *(){
     this.body += 'chmod +x deploy, and fix the rsa what what problem\n';
     this.body += 'chmod +x deploy, and fix the rsa what what problem\n';
     this.body += 'chmod +x deploy, and fix the rsa what what problem\n';
+    this.body += 'chmod +x deploy, and fix the rsa what what problem\n';
+
 
 
 });
