@@ -6,6 +6,8 @@ app.use(function *(){
     this.body += 'pm2 auto pull! pull again!!!\n';
     this.body += 'chmod +x deploy, and fix the rsa what what problem\n';
     this.body += 'chmod +x deploy, and fix the rsa what what problem\n';
+    this.body += 'chmod +x deploy, and fix the rsa what what problem\n';
+
 
 });
 
